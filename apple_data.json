@@ -1,0 +1,1774 @@
+{
+  "Apple I": {
+    "release date": "April 11, 1976",
+    "category": "Apple 1/2/2GS/3"
+  },
+  "Apple II": {
+    "release date": "June 1, 1977",
+    "category": "Apple 1/2/2GS/3"
+  },
+  "Disk II": {
+    "release date": "June 1, 1978",
+    "category": "Computer Peripherals"
+  },
+  "Apple II Plus": {
+    "release date": "June 1, 1979",
+    "category": "Apple 1/2/2GS/3"
+  },
+  "Apple II EuroPlus": {
+    "release date": "June 1, 1979",
+    "category": "Apple 1/2/2GS/3"
+  },
+  "Apple II J-Plus": {
+    "release date": "June 1, 1979",
+    "category": "Apple 1/2/2GS/3"
+  },
+  "Bell & Howell": {
+    "release date": "June 1, 1979",
+    "category": "Apple 1/2/2GS/3"
+  },
+  "Bell & Howell Disk II": {
+    "release date": "June 1, 1979",
+    "category": "Computer Peripherals"
+  },
+  "Apple SilenType": {
+    "release date": "June 1, 1979",
+    "category": "Computer Peripherals"
+  },
+  "Apple III": {
+    "release date": "November 1, 1980",
+    "category": "Apple 1/2/2GS/3"
+  },
+  "Modem IIB": {
+    "release date": "November 1, 1980",
+    "category": "Computer Peripherals"
+  },
+  "Printer IIA": {
+    "release date": "November 1, 1980",
+    "category": "Computer Peripherals"
+  },
+  "Monitor III": {
+    "release date": "November 1, 1980",
+    "category": "Computer Peripherals"
+  },
+  "Monitor II": {
+    "release date": "November 1, 1980",
+    "category": "Computer Peripherals"
+  },
+  "Disk III": {
+    "release date": "November 1, 1980",
+    "category": "Computer Peripherals"
+  },
+  "Apple ProFile": {
+    "release date": "September 1, 1981",
+    "category": "Computer Peripherals"
+  },
+  "Apple III Revised": {
+    "release date": "December 1, 1981",
+    "category": "Apple 1/2/2GS/3"
+  },
+  "Apple Dot Matrix Printer": {
+    "release date": "October 1, 1982",
+    "category": "Computer Peripherals"
+  },
+  "Apple Daisy Wheel Printer": {
+    "release date": "October 1, 1982",
+    "category": "Computer Peripherals"
+  },
+  "Apple IIe": {
+    "release date": "January 1, 1983",
+    "category": "Apple 1/2/2GS/3"
+  },
+  "Apple Lisa": {
+    "release date": "January 19, 1983",
+    "category": "Lisa"
+  },
+  "Apple III Plus": {
+    "release date": "December 1, 1983",
+    "category": "Apple 1/2/2GS/3"
+  },
+  "Apple ImageWriter": {
+    "release date": "December 1, 1983",
+    "category": "Computer Peripherals"
+  },
+  "Apple Lisa 2": {
+    "release date": "January 1, 1984",
+    "category": "Lisa"
+  },
+  "Macintosh (128K)": {
+    "release date": "January 24, 1984",
+    "category": "Macintosh"
+  },
+  "Macintosh External Disk Drive (400K)": {
+    "release date": "January 24, 1984",
+    "category": "Computer Peripherals"
+  },
+  "Modems": {
+    "release date": "January 24, 1984",
+    "category": "Computer Peripherals"
+  },
+  "Apple IIc": {
+    "release date": "April 1, 1984",
+    "category": "Apple 1/2/2GS/3"
+  },
+  "Apple Scribe Printer": {
+    "release date": "April 1, 1984",
+    "category": "Computer Peripherals"
+  },
+  "Apple Mouse IIc": {
+    "release date": "April 1, 1984",
+    "category": "Computer Peripherals"
+  },
+  "Disk IIc": {
+    "release date": "April 1, 1984",
+    "category": "Computer Peripherals"
+  },
+  "DuoDisk": {
+    "release date": "May 1, 1984",
+    "category": "Computer Peripherals"
+  },
+  "Apple 410 Color Plotter": {
+    "release date": "June, 1984",
+    "category": "Computer Peripherals"
+  },
+  "Apple ImageWriter Wide Carriage": {
+    "release date": "June, 1984",
+    "category": "Computer Peripherals"
+  },
+  "Macintosh 512K": {
+    "release date": "September 10, 1984",
+    "category": "Macintosh"
+  },
+  "Macintosh 128K (revised)": {
+    "release date": "September 10, 1984",
+    "category": "Macintosh"
+  },
+  "AppleColor 100": {
+    "release date": "December 1984",
+    "category": "Computer Peripherals"
+  },
+  "Macintosh XL": {
+    "release date": "January 1, 1985",
+    "category": "Macintosh"
+  },
+  "Apple LaserWriter": {
+    "release date": "January 1, 1985",
+    "category": "Computer Peripherals"
+  },
+  "Apple LocalTalk Connector": {
+    "release date": "January 1, 1985",
+    "category": "Computer Peripherals"
+  },
+  "Apple IIe Enhanced": {
+    "release date": "March 1, 1985",
+    "category": "Apple 1/2/2GS/3"
+  },
+  "Apple ImageWriter II": {
+    "release date": "April 1, 1985",
+    "category": "Computer Peripherals"
+  },
+  "Apple UniDisk": {
+    "release date": "June 1985",
+    "category": "Computer Peripherals"
+  },
+  "Macintosh Hard Disk 20": {
+    "release date": "September 1, 1985",
+    "category": "Computer Peripherals"
+  },
+  "Apple UniDisk 3.5": {
+    "release date": "September 1, 1985",
+    "category": "Computer Peripherals"
+  },
+  "Apple ColorMonitor IIe": {
+    "release date": "September 1, 1985",
+    "category": "Computer Peripherals"
+  },
+  "Apple ColorMonitor IIc": {
+    "release date": "September 1, 1985",
+    "category": "Computer Peripherals"
+  },
+  "Macintosh Plus": {
+    "release date": "January 16, 1986",
+    "category": "Macintosh"
+  },
+  "Macintosh 800K External Drive": {
+    "release date": "January 16, 1986",
+    "category": "Computer Peripherals"
+  },
+  "Printers": {
+    "release date": "January 16, 1986",
+    "category": "Computer Peripherals"
+  },
+  "Macintosh 512Ke": {
+    "release date": "April 14, 1986",
+    "category": "Macintosh"
+  },
+  "Apple IIGS": {
+    "release date": "September 15, 1986",
+    "category": "Apple 1/2/2GS/3"
+  },
+  "Apple IIc Memory Expansion": {
+    "release date": "September 15, 1986",
+    "category": "Computer Peripherals"
+  },
+  "Apple Hard Disk 20SC": {
+    "release date": "September 15, 1986",
+    "category": "Computer Peripherals"
+  },
+  "Apple 3.5 Drive": {
+    "release date": "September 15, 1986",
+    "category": "Computer Peripherals"
+  },
+  "Apple 5.25 Drive": {
+    "release date": "September 15, 1986",
+    "category": "Computer Peripherals"
+  },
+  "AppleColor RGB Monitor": {
+    "release date": "September 15, 1986",
+    "category": "Computer Peripherals"
+  },
+  "Apple Monochrome Monitor": {
+    "release date": "September 15, 1986",
+    "category": "Computer Peripherals"
+  },
+  "AppleColor Composite Monitor": {
+    "release date": "September 15, 1986",
+    "category": "Computer Peripherals"
+  },
+  "Macintosh Plus (Platinum)": {
+    "release date": "January 1, 1987",
+    "category": "Macintosh"
+  },
+  "Apple IIe Platinum": {
+    "release date": "January 1, 1987",
+    "category": "Computer Peripherals"
+  },
+  "Macintosh SE": {
+    "release date": "March 2, 1987",
+    "category": "Macintosh"
+  },
+  "Macintosh II": {
+    "release date": "March 2, 1987",
+    "category": "Macintosh"
+  },
+  "AppleColor High-Resolution RGB Monitor": {
+    "release date": "March 2, 1987",
+    "category": "Computer Peripherals"
+  },
+  "ImageWriter LQ": {
+    "release date": "August, 1987",
+    "category": "Computer Peripherals"
+  },
+  "Apple PC 5.25\" Drive": {
+    "release date": "August, 1987",
+    "category": "Computer Peripherals"
+  },
+  "Apple Tape Backup 40SC": {
+    "release date": "August, 1987",
+    "category": "Computer Peripherals"
+  },
+  "LaserWriter": {
+    "release date": "January 1, 1988",
+    "category": "Computer Peripherals"
+  },
+  "AppleCD SC": {
+    "release date": "March 1988",
+    "category": "Computer Peripherals"
+  },
+  "Apple Scanner": {
+    "release date": "August 1988",
+    "category": "Computer Peripherals"
+  },
+  "Apple IIc Plus": {
+    "release date": "September 1, 1988",
+    "category": "Apple 1/2/2GS/3"
+  },
+  "Macintosh IIx": {
+    "release date": "September 19, 1988",
+    "category": "Macintosh"
+  },
+  "Macintosh SE/30": {
+    "release date": "January 19, 1989",
+    "category": "Macintosh"
+  },
+  "Macintosh IIcx": {
+    "release date": "March 7, 1989",
+    "category": "Macintosh"
+  },
+  "Apple Two Page Monochrome Monitor": {
+    "release date": "March 7, 1989",
+    "category": "Computer Peripherals"
+  },
+  "Apple Macintosh Portrait Display": {
+    "release date": "March 7, 1989",
+    "category": "Computer Peripherals"
+  },
+  "Apple High-Resolution Monochrome Display": {
+    "release date": "March 7, 1989",
+    "category": "Computer Peripherals"
+  },
+  "Macintosh SE FDHD": {
+    "release date": "August 1, 1989",
+    "category": "Macintosh"
+  },
+  "Apple FDHD SuperDrive": {
+    "release date": "August 1, 1989",
+    "category": "Computer Peripherals"
+  },
+  "Macintosh IIci": {
+    "release date": "September 20, 1989",
+    "category": "Macintosh"
+  },
+  "Macintosh Portable": {
+    "release date": "September 20, 1989",
+    "category": "Macintosh"
+  },
+  "Apple IIGS (1 MB, ROM 3)": {
+    "release date": "October 1, 1989",
+    "category": "Apple 1/2/2GS/3"
+  },
+  "Macintosh IIfx": {
+    "release date": "March 19, 1990",
+    "category": "Macintosh"
+  },
+  "Macintosh LC": {
+    "release date": "October 15, 1990",
+    "category": "Macintosh"
+  },
+  "Macintosh Classic": {
+    "release date": "October 15, 1990",
+    "category": "Macintosh"
+  },
+  "Macintosh IIsi": {
+    "release date": "October 15, 1990",
+    "category": "Macintosh"
+  },
+  "Apple IIe Card": {
+    "release date": "March 1, 1991",
+    "category": "Apple 1/2/2GS/3"
+  },
+  "Personal LaserWriter LS": {
+    "release date": "March 1, 1991",
+    "category": "Computer Peripherals"
+  },
+  "StyleWriter": {
+    "release date": "March 1, 1991",
+    "category": "Computer Peripherals"
+  },
+  "Personal LaserWriter NT": {
+    "release date": "July 1, 1991",
+    "category": "Computer Peripherals"
+  },
+  "Macintosh Classic II": {
+    "release date": "October 21, 1991",
+    "category": "Macintosh"
+  },
+  "Macintosh Quadra 700": {
+    "release date": "October 21, 1991",
+    "category": "Macintosh"
+  },
+  "Macintosh Quadra 900": {
+    "release date": "October 21, 1991",
+    "category": "Macintosh"
+  },
+  "PowerBook 100": {
+    "release date": "October 21, 1991",
+    "category": "Macintosh"
+  },
+  "PowerBook 140": {
+    "release date": "October 21, 1991",
+    "category": "Macintosh"
+  },
+  "PowerBook 170": {
+    "release date": "October 21, 1991",
+    "category": "Macintosh"
+  },
+  "Personal LaserWriter NTR": {
+    "release date": "March 1, 1992",
+    "category": "Computer Peripherals"
+  },
+  "Macintosh LC II": {
+    "release date": "March 23, 1992",
+    "category": "Macintosh"
+  },
+  "Macintosh Quadra 950": {
+    "release date": "May 18, 1992",
+    "category": "Macintosh"
+  },
+  "PowerBook 145": {
+    "release date": "August 3, 1992",
+    "category": "Macintosh"
+  },
+  "Apple Performa Plus Display": {
+    "release date": "September 14, 1992",
+    "category": "Computer Peripherals"
+  },
+  "Macintosh IIvi": {
+    "release date": "October 19, 1992",
+    "category": "Macintosh"
+  },
+  "Macintosh IIvx": {
+    "release date": "October 19, 1992",
+    "category": "Macintosh"
+  },
+  "PowerBook 160": {
+    "release date": "October 19, 1992",
+    "category": "Macintosh"
+  },
+  "PowerBook 180": {
+    "release date": "October 19, 1992",
+    "category": "Macintosh"
+  },
+  "PowerBook Duo 210": {
+    "release date": "October 19, 1992",
+    "category": "Macintosh"
+  },
+  "PowerBook Duo 230": {
+    "release date": "October 19, 1992",
+    "category": "Macintosh"
+  },
+  "Powerbook Duo Dock": {
+    "release date": "October 19, 1992",
+    "category": "Computer Peripherals"
+  },
+  "StyleWriter II": {
+    "release date": "January 1, 1993",
+    "category": "Computer Peripherals"
+  },
+  "Apple Color Printer": {
+    "release date": "January 1, 1993",
+    "category": "Computer Peripherals"
+  },
+  "LaserWriter Pro 600": {
+    "release date": "January 1, 1993",
+    "category": "Computer Peripherals"
+  },
+  "LaserWriter Pro 630": {
+    "release date": "January 1, 1993",
+    "category": "Computer Peripherals"
+  },
+  "Macintosh LC III": {
+    "release date": "February 10, 1993",
+    "category": "Macintosh"
+  },
+  "Macintosh Color Classic": {
+    "release date": "February 10, 1993",
+    "category": "Macintosh"
+  },
+  "Macintosh Centris/Quadra 610": {
+    "release date": "February 10, 1993",
+    "category": "Macintosh"
+  },
+  "Macintosh Centris/Quadra 650": {
+    "release date": "February 10, 1993",
+    "category": "Macintosh"
+  },
+  "Quadra 800": {
+    "release date": "February 10, 1993",
+    "category": "Macintosh"
+  },
+  "PowerBook 165c": {
+    "release date": "February 10, 1993",
+    "category": "Macintosh"
+  },
+  "LaserWriter Select 300": {
+    "release date": "February 10, 1993",
+    "category": "Computer Peripherals"
+  },
+  "LaserWriter Select 310": {
+    "release date": "February 10, 1993",
+    "category": "Computer Peripherals"
+  },
+  "Workgroup Server 80": {
+    "release date": "March 22, 1993",
+    "category": "Macintosh"
+  },
+  "Workgroup Server 95": {
+    "release date": "March 22, 1993",
+    "category": "Macintosh"
+  },
+  "PowerCD": {
+    "release date": "March 22, 1993",
+    "category": "iPod/Consumer Products"
+  },
+  "Apple Design Powered Speakers": {
+    "release date": "March 22, 1993",
+    "category": "iPod/Consumer Products"
+  },
+  "PowerBook 145b": {
+    "release date": "June 7, 1993",
+    "category": "Macintosh"
+  },
+  "PowerBook 180c": {
+    "release date": "June 7, 1993",
+    "category": "Macintosh"
+  },
+  "Personal LaserWriter 300": {
+    "release date": "June 1, 1993",
+    "category": "Computer Peripherals"
+  },
+  "Portable StyleWriter": {
+    "release date": "June 23, 1993",
+    "category": "Computer Peripherals"
+  },
+  "Macintosh LC 520": {
+    "release date": "June 28, 1993",
+    "category": "Macintosh"
+  },
+  "Workgroup Server 60": {
+    "release date": "July 26, 1993",
+    "category": "Macintosh"
+  },
+  "Macintosh Centris/Quadra 660AV": {
+    "release date": "July 29, 1993",
+    "category": "Macintosh"
+  },
+  "Quadra 840AV": {
+    "release date": "July 29, 1993",
+    "category": "Macintosh"
+  },
+  "Apple AudioVision 14 Display": {
+    "release date": "August 1, 1993",
+    "category": "Computer Peripherals"
+  },
+  "Newton Message Pad": {
+    "release date": "August 16, 1993",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "PowerBook 165": {
+    "release date": "August 16, 1993",
+    "category": "Macintosh"
+  },
+  "LaserWriter Select 360": {
+    "release date": "October 1, 1993",
+    "category": "Computer Peripherals"
+  },
+  "LaserWriter Pro 810": {
+    "release date": "October 1, 1993",
+    "category": "Computer Peripherals"
+  },
+  "Personal LaserWriter 320": {
+    "release date": "October 1, 1993",
+    "category": "Computer Peripherals"
+  },
+  "Macintosh LC III+": {
+    "release date": "October 18, 1993",
+    "category": "Macintosh"
+  },
+  "Macintosh TV": {
+    "release date": "October 21, 1993",
+    "category": "Macintosh"
+  },
+  "Macintosh Color Classic II": {
+    "release date": "October 21, 1993",
+    "category": "Macintosh"
+  },
+  "Quadra 605": {
+    "release date": "October 21, 1993",
+    "category": "Macintosh"
+  },
+  "Quadra 610": {
+    "release date": "October 21, 1993",
+    "category": "Macintosh"
+  },
+  "Quadra 650": {
+    "release date": "October 21, 1993",
+    "category": "Macintosh"
+  },
+  "PowerBook Duo 250": {
+    "release date": "October 21, 1993",
+    "category": "Macintosh"
+  },
+  "PowerBook Duo 270c": {
+    "release date": "October 21, 1993",
+    "category": "Macintosh"
+  },
+  "Apple Color Plus 14\" Display": {
+    "release date": "October 21, 1993",
+    "category": "Computer Peripherals"
+  },
+  "Macintosh LC 550": {
+    "release date": "February 1, 1994",
+    "category": "Macintosh"
+  },
+  "Macintosh LC 575": {
+    "release date": "February 1, 1994",
+    "category": "Macintosh"
+  },
+  "Apple QuickTake 100": {
+    "release date": "February 1, 1994",
+    "category": "iPod/Consumer Products"
+  },
+  "Quadra 610 DOS Compatible": {
+    "release date": "February 28, 1994",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 6100": {
+    "release date": "March 14, 1994",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 7100": {
+    "release date": "March 14, 1994",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 8100": {
+    "release date": "March 14, 1994",
+    "category": "Macintosh"
+  },
+  "Workgroup Server 6150": {
+    "release date": "April 25, 1994",
+    "category": "Macintosh"
+  },
+  "Workgroup Server 8150": {
+    "release date": "April 25, 1994",
+    "category": "Macintosh"
+  },
+  "Workgroup Server 9150": {
+    "release date": "April 25, 1994",
+    "category": "Macintosh"
+  },
+  "PowerBook 520c": {
+    "release date": "May 16, 1994",
+    "category": "Macintosh"
+  },
+  "PowerBook 540c": {
+    "release date": "May 16, 1994",
+    "category": "Macintosh"
+  },
+  "PowerBook 550": {
+    "release date": "May 16, 1994",
+    "category": "Macintosh"
+  },
+  "PowerBook Duo 280": {
+    "release date": "May 16, 1994",
+    "category": "Macintosh"
+  },
+  "PowerBook Duo 280c": {
+    "release date": "May 16, 1994",
+    "category": "Macintosh"
+  },
+  "PowerBook Duo Dock II": {
+    "release date": "May 16, 1994",
+    "category": "Macintosh"
+  },
+  "Quadra 630": {
+    "release date": "July 18, 1994",
+    "category": "Macintosh"
+  },
+  "PowerBook 150": {
+    "release date": "July 18, 1994",
+    "category": "Macintosh"
+  },
+  "Apple Multiple Scan 15 Display": {
+    "release date": "July 18, 1994",
+    "category": "Computer Peripherals"
+  },
+  "Color StyleWriter 2400": {
+    "release date": "September 1, 1994",
+    "category": "Computer Peripherals"
+  },
+  "LaserWriter 16/600 PS": {
+    "release date": "September 1, 1994",
+    "category": "Computer Peripherals"
+  },
+  "Macintosh LC 630": {
+    "release date": "November 3, 1994",
+    "category": "Macintosh"
+  },
+  "Pippin": {
+    "release date": "December 1, 1994",
+    "category": "iPod/Consumer Products"
+  },
+  "Power Macintosh 6200 / 6300": {
+    "release date": "January 28, 1995",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 8115": {
+    "release date": "February 23, 1995",
+    "category": "Macintosh"
+  },
+  "StyleWriter 1200": {
+    "release date": "April 1, 1995",
+    "category": "Macintosh"
+  },
+  "Macintosh LC 580": {
+    "release date": "April 3, 1995",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 5200 LC": {
+    "release date": "April 3, 1995",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 6200": {
+    "release date": "May 1, 1995",
+    "category": "Macintosh"
+  },
+  "PowerBook Duo Dock Plus": {
+    "release date": "May 15, 1995",
+    "category": "Computer Peripherals"
+  },
+  "LaserWriter 4/600 PS": {
+    "release date": "June 1, 1995",
+    "category": "Computer Peripherals"
+  },
+  "Color LaserWriter 12/600": {
+    "release date": "June 1, 1995",
+    "category": "Computer Peripherals"
+  },
+  "Color StyleWriter 2200": {
+    "release date": "June 1, 1995",
+    "category": "Computer Peripherals"
+  },
+  "Power Macintosh 9500": {
+    "release date": "June 19, 1995",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 7200": {
+    "release date": "August 7, 1995",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 7500": {
+    "release date": "August 7, 1995",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 8500": {
+    "release date": "August 7, 1995",
+    "category": "Macintosh"
+  },
+  "AppleVision 1710": {
+    "release date": "August 7, 1995",
+    "category": "Computer Peripherals"
+  },
+  "Apple Multiple Scan 14 Display": {
+    "release date": "August 7, 1995",
+    "category": "Computer Peripherals"
+  },
+  "PowerBook 190": {
+    "release date": "August 28, 1995",
+    "category": "Macintosh"
+  },
+  "PowerBook 5300": {
+    "release date": "August 28, 1995",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 5300 LC": {
+    "release date": "August 28, 1995",
+    "category": "Macintosh"
+  },
+  "PowerBook Duo 2300c": {
+    "release date": "August 28, 1995",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 7215": {
+    "release date": "January 11, 1996",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 8515": {
+    "release date": "January 11, 1996",
+    "category": "Macintosh"
+  },
+  "Apple Network Server 500": {
+    "release date": "February 15, 1996",
+    "category": "Network Server"
+  },
+  "Apple Network Server 700/150": {
+    "release date": "February 15, 1996",
+    "category": "Network Server"
+  },
+  "Power Macintosh 5400": {
+    "release date": "February 17, 1996",
+    "category": "Macintosh"
+  },
+  "Color StyleWriter 1500": {
+    "release date": "February 19, 1996",
+    "category": "Computer Peripherals"
+  },
+  "Color StyleWriter 2500": {
+    "release date": "February 19, 1996",
+    "category": "Computer Peripherals"
+  },
+  "Workgroup Server 7250": {
+    "release date": "February 26, 1996",
+    "category": "Macintosh"
+  },
+  "Workgroup Server 8550": {
+    "release date": "February 26, 1996",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 7600": {
+    "release date": "April 1, 1996",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 5260": {
+    "release date": "April 15, 1996",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 7200/120 PC Compatible": {
+    "release date": "April 22, 1996",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 8200": {
+    "release date": "April 22, 1996",
+    "category": "Macintosh"
+  },
+  "LaserWriter 12/640PS": {
+    "release date": "May 1, 1996",
+    "category": "Computer Peripherals"
+  },
+  "Power Macintosh 6300": {
+    "release date": "June 27, 1996",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 6400": {
+    "release date": "October 1, 1996",
+    "category": "Macintosh"
+  },
+  "Color LaserWriter 12/660 PS": {
+    "release date": "October 1, 1996",
+    "category": "Computer Peripherals"
+  },
+  "Apple Network Server 700/200": {
+    "release date": "October 16, 1996",
+    "category": "Network Server"
+  },
+  "Power Macintosh 4400": {
+    "release date": "November 15, 1996",
+    "category": "Macintosh"
+  },
+  "PowerBook 1400": {
+    "release date": "November 20, 1996",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 5500": {
+    "release date": "February 17, 1997",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 6500": {
+    "release date": "February 17, 1997",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 7220": {
+    "release date": "February 17, 1997",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 7300": {
+    "release date": "February 17, 1997",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 8600": {
+    "release date": "February 17, 1997",
+    "category": "Macintosh"
+  },
+  "Power Macintosh 9600": {
+    "release date": "February 17, 1997",
+    "category": "Macintosh"
+  },
+  "PowerBook 3400": {
+    "release date": "February 17, 1997",
+    "category": "Macintosh"
+  },
+  "eMate 300": {
+    "release date": "March 7, 1997",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Twentieth Anniversary Macintosh": {
+    "release date": "March 20, 1997",
+    "category": "Macintosh"
+  },
+  "Workgroup Server 7350": {
+    "release date": "April 21, 1997",
+    "category": "Macintosh"
+  },
+  "Workgroup Server 9650": {
+    "release date": "April 21, 1997",
+    "category": "Macintosh"
+  },
+  "PowerBook 2400c": {
+    "release date": "May 8, 1997",
+    "category": "Macintosh"
+  },
+  "Apple ColorSync/AppleVision 750 Display": {
+    "release date": "August 5, 1997",
+    "category": "Computer Peripherals"
+  },
+  "Power Macintosh G3 desktop": {
+    "release date": "November 10, 1997",
+    "category": "Macintosh"
+  },
+  "Power Macintosh G3 minitower": {
+    "release date": "November 10, 1997",
+    "category": "Macintosh"
+  },
+  "PowerBook G3": {
+    "release date": "November 10, 1997",
+    "category": "Macintosh"
+  },
+  "Power Macintosh G3 AIO": {
+    "release date": "January 31, 1998",
+    "category": "Macintosh"
+  },
+  "Macintosh Server G3": {
+    "release date": "March 2, 1998",
+    "category": "Macintosh"
+  },
+  "Apple Studio Display": {
+    "release date": "March 17, 1998",
+    "category": "Computer Peripherals"
+  },
+  "PowerBook G3 series": {
+    "release date": "May 6, 1998",
+    "category": "Macintosh"
+  },
+  "iMac G3": {
+    "release date": "August 15, 1998",
+    "category": "Macintosh"
+  },
+  "Power Macintosh G3 (Blue & White)": {
+    "release date": "January 5, 1999",
+    "category": "Macintosh"
+  },
+  "Macintosh Server G3 (Blue & White)": {
+    "release date": "January 5, 1999",
+    "category": "Macintosh"
+  },
+  "PowerBook G3 (\"Lombard\")": {
+    "release date": "May 10, 1999",
+    "category": "Macintosh"
+  },
+  "iBook G3": {
+    "release date": "July 21, 1999",
+    "category": "Macintosh"
+  },
+  "AirPort (802.11b, \"Graphite\")": {
+    "release date": "July 21, 1999",
+    "category": "Computer Peripherals"
+  },
+  "Macintosh Server G4": {
+    "release date": "August 31, 1999",
+    "category": "Macintosh"
+  },
+  "Cinema Display (22\")": {
+    "release date": "September 1, 1999",
+    "category": "Computer Peripherals"
+  },
+  "iMac (slot loading)": {
+    "release date": "October 5, 1999",
+    "category": "Macintosh"
+  },
+  "Power Mac G4 Graphite": {
+    "release date": "October 13, 1999",
+    "category": "Macintosh"
+  },
+  "PowerBook (\"Pismo\")": {
+    "release date": "February 16, 2000",
+    "category": "Macintosh"
+  },
+  "Power Mac G4 Cube": {
+    "release date": "July 19, 2000",
+    "category": "Macintosh"
+  },
+  "Apple Pro Speakers": {
+    "release date": "July 19, 2000",
+    "category": "Macintosh"
+  },
+  "iBook (FireWire)": {
+    "release date": "September 13, 2000",
+    "category": "Macintosh"
+  },
+  "PowerBook G4 Titanium": {
+    "release date": "January 9, 2001",
+    "category": "Macintosh"
+  },
+  "Power Mac G4 Digital Audio": {
+    "release date": "January 9, 2001",
+    "category": "Macintosh"
+  },
+  "iBook (white)": {
+    "release date": "May 1, 2001",
+    "category": "Macintosh"
+  },
+  "Power Mac G4 Quicksilver": {
+    "release date": "July 18, 2001",
+    "category": "Macintosh"
+  },
+  "Server G4 Quicksilver": {
+    "release date": "September 8, 2001",
+    "category": "Macintosh"
+  },
+  "iPod (1st gen)": {
+    "release date": "October 23, 2001",
+    "category": "iPod/Consumer Products"
+  },
+  "iMac G4 15\"": {
+    "release date": "January 7, 2002",
+    "category": "Macintosh"
+  },
+  "iBook (14\")": {
+    "release date": "January 7, 2002",
+    "category": "Macintosh"
+  },
+  "eMac": {
+    "release date": "April 29, 2002",
+    "category": "Macintosh"
+  },
+  "Xserve": {
+    "release date": "May 14, 2002",
+    "category": "Network Server"
+  },
+  "iMac G4 17\"": {
+    "release date": "July 17, 2002",
+    "category": "Macintosh"
+  },
+  "iPod (2nd gen)": {
+    "release date": "July 17, 2002",
+    "category": "iPod/Consumer Products"
+  },
+  "Power Macintosh G4 MDD": {
+    "release date": "August 13, 2002",
+    "category": "Macintosh"
+  },
+  "Macintosh Server G4 MDD": {
+    "release date": "August 27, 2002",
+    "category": "Macintosh"
+  },
+  "PowerBook G4 Aluminum (12\")": {
+    "release date": "January 7, 2003",
+    "category": "Macintosh"
+  },
+  "PowerBook G4 Aluminum (17\")": {
+    "release date": "January 7, 2003",
+    "category": "Macintosh"
+  },
+  "Xserve slot loading": {
+    "release date": "February 10, 2003",
+    "category": "Network Server"
+  },
+  "Xserve Cluster Node": {
+    "release date": "February 10, 2003",
+    "category": "Network Server"
+  },
+  "Xserve RAID": {
+    "release date": "February 10, 2003",
+    "category": "Network Server"
+  },
+  "iPod (3rd gen)": {
+    "release date": "April 28, 2003",
+    "category": "iPod/Consumer Products"
+  },
+  "Power Mac G5": {
+    "release date": "June 23, 2003",
+    "category": "Macintosh"
+  },
+  "PowerBook G4 Aluminum (15\")": {
+    "release date": "September 16, 2003",
+    "category": "Macintosh"
+  },
+  "iBook G4 (12\" / 14\")": {
+    "release date": "October 22, 2003",
+    "category": "Macintosh"
+  },
+  "iMac G4 20\"": {
+    "release date": "November 18, 2003",
+    "category": "Macintosh"
+  },
+  "Xserve G5": {
+    "release date": "January 6, 2004",
+    "category": "Network Server"
+  },
+  "Xserve Cluster Node G5": {
+    "release date": "January 6, 2004",
+    "category": "Network Server"
+  },
+  "iPod Mini": {
+    "release date": "January 6, 2004",
+    "category": "iPod/Consumer Products"
+  },
+  "iPod In-Ear Headphones": {
+    "release date": "January 6, 2004",
+    "category": "iPod/Consumer Products"
+  },
+  "iPod+HP": {
+    "release date": "January 8, 2004",
+    "category": "iPod/Consumer Products"
+  },
+  "AirPort Express (802.11g)": {
+    "release date": "June 7, 2004",
+    "category": "Computer Peripherals"
+  },
+  "Power Macintosh G5 FX": {
+    "release date": "June 9, 2004",
+    "category": "Macintosh"
+  },
+  "Cinema Display (20\")": {
+    "release date": "June 28, 2004",
+    "category": "Computer Peripherals"
+  },
+  "Cinema Display (23\")": {
+    "release date": "June 28, 2004",
+    "category": "Computer Peripherals"
+  },
+  "Cinema Display (30\")": {
+    "release date": "June 28, 2004",
+    "category": "Computer Peripherals"
+  },
+  "iPod (4th gen)": {
+    "release date": "July 19, 2004",
+    "category": "iPod/Consumer Products"
+  },
+  "iMac G5 17\"": {
+    "release date": "August 31, 2004",
+    "category": "Macintosh"
+  },
+  "iMac G5 20\"": {
+    "release date": "August 31, 2004",
+    "category": "Macintosh"
+  },
+  "iPod Photo": {
+    "release date": "September 26, 2004",
+    "category": "iPod/Consumer Products"
+  },
+  "Mac Mini": {
+    "release date": "January 11, 2005",
+    "category": "Macintosh"
+  },
+  "iPod Shuffle": {
+    "release date": "January 11, 2005",
+    "category": "iPod/Consumer Products"
+  },
+  "iPod Nano": {
+    "release date": "September 7, 2005",
+    "category": "iPod/Consumer Products"
+  },
+  "Apple Mighty Mouse": {
+    "release date": "August 2, 2005",
+    "category": "Computer Peripherals"
+  },
+  "iPod (5th gen)": {
+    "release date": "October 12, 2005",
+    "category": "iPod/Consumer Products"
+  },
+  "Power Macintosh G5 dual core": {
+    "release date": "October 19, 2005",
+    "category": "Macintosh"
+  },
+  "iMac (Early 2006)": {
+    "release date": "January 10, 2006",
+    "category": "Macintosh"
+  },
+  "iPod Radio Remote": {
+    "release date": "January 10, 2006",
+    "category": "iPod/Consumer Products"
+  },
+  "MacBook Pro (15\")": {
+    "release date": "February 14, 2006",
+    "category": "Macintosh"
+  },
+  "Mac Mini Core Solo": {
+    "release date": "February 28, 2006",
+    "category": "Macintosh"
+  },
+  "Mac Mini Core Duo": {
+    "release date": "February 28, 2006",
+    "category": "Macintosh"
+  },
+  "iPod Hi-Fi": {
+    "release date": "February 28, 2006",
+    "category": "iPod/Consumer Products"
+  },
+  "MacBook Pro (17\")": {
+    "release date": "April 24, 2006",
+    "category": "Macintosh"
+  },
+  "MacBook": {
+    "release date": "May 16, 2006",
+    "category": "Macintosh"
+  },
+  "Nike+iPod": {
+    "release date": "July 13, 2006",
+    "category": "iPod/Consumer Products"
+  },
+  "Mac Pro": {
+    "release date": "August 7, 2006",
+    "category": "Macintosh"
+  },
+  "Xserve (Intel)": {
+    "release date": "August 7, 2006",
+    "category": "Network Server"
+  },
+  "iMac (Mid 2006)": {
+    "release date": "September 6, 2006",
+    "category": "Macintosh"
+  },
+  "Apple TV": {
+    "release date": "March 21, 2007",
+    "category": "iPod/Consumer Products"
+  },
+  "iPhone (1st generation)": {
+    "release date": "June 29, 2007",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone Bluetooth Headset": {
+    "release date": "June 29, 2007",
+    "category": "iPod/Consumer Products"
+  },
+  "iMac": {
+    "release date": "August 7, 2007",
+    "category": "Macintosh"
+  },
+  "Apple Keyboard with Numeric Keypad": {
+    "release date": "August 7, 2007",
+    "category": "Computer Peripherals"
+  },
+  "Apple Wireless Keyboard": {
+    "release date": "August 7, 2007",
+    "category": "Computer Peripherals"
+  },
+  "iPod Classic": {
+    "release date": "September 5, 2007",
+    "category": "iPod/Consumer Products"
+  },
+  "iPod Touch (1st generation)": {
+    "release date": "September 5, 2007",
+    "category": "iPod/Consumer Products"
+  },
+  "MacBook Air": {
+    "release date": "January 15, 2008",
+    "category": "Macintosh"
+  },
+  "USB SuperDrive": {
+    "release date": "January 15, 2008",
+    "category": "Computer Peripherals"
+  },
+  "MacBook Pro": {
+    "release date": "February 26, 2008",
+    "category": "Macintosh"
+  },
+  "Time Capsule": {
+    "release date": "February 29, 2008",
+    "category": "Computer Peripherals"
+  },
+  "AirPort Express 802.11n": {
+    "release date": "March 17, 2008",
+    "category": "Computer Peripherals"
+  },
+  "iPhone 3G": {
+    "release date": "July 11, 2008",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPod Touch (2nd generation)": {
+    "release date": "September 9, 2008",
+    "category": "iPod/Consumer Products"
+  },
+  "In-Ear Headphones": {
+    "release date": "September 9, 2008",
+    "category": "iPod/Consumer Products"
+  },
+  "LED Cinema Display (24\")": {
+    "release date": "October 14, 2008",
+    "category": "Computer Peripherals"
+  },
+  "AirPort Extreme 802.11n": {
+    "release date": "March 3, 2009",
+    "category": "Computer Peripherals"
+  },
+  "Apple Keyboard": {
+    "release date": "March 3, 2009",
+    "category": "Computer Peripherals"
+  },
+  "iPhone 3GS": {
+    "release date": "June 19, 2009",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPod Touch (3rd generation)": {
+    "release date": "September 9, 2009",
+    "category": "iPod/Consumer Products"
+  },
+  "Magic Mouse": {
+    "release date": "October 20, 2009",
+    "category": "Computer Peripherals"
+  },
+  "iPad": {
+    "release date": "April 3, 2010",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 4": {
+    "release date": "June 24, 2010",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Magic Trackpad": {
+    "release date": "July 27, 2010",
+    "category": "Computer Peripherals"
+  },
+  "Apple Battery Charger": {
+    "release date": "July 27, 2010",
+    "category": "Computer Peripherals"
+  },
+  "LED Cinema Display (27\")": {
+    "release date": "July 27, 2010",
+    "category": "Computer Peripherals"
+  },
+  "iPod Touch (4th generation)": {
+    "release date": "September 1, 2010",
+    "category": "iPod/Consumer Products"
+  },
+  "iPad 2": {
+    "release date": "March 11, 2011",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Thunderbolt Display": {
+    "release date": "July 20, 2011",
+    "category": "Computer Peripherals"
+  },
+  "iPhone 4S": {
+    "release date": "October 14, 2011",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPad (3rd gen)": {
+    "release date": "March 16, 2012",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "EarPods with 3.5mm connector": {
+    "release date": "September 12, 2012",
+    "category": "iPod/Consumer Products"
+  },
+  "iPhone 5": {
+    "release date": "September 21, 2012",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPod Touch (5th generation)": {
+    "release date": "October 11, 2012",
+    "category": "iPod/Consumer Products"
+  },
+  "iPad mini (1st gen)": {
+    "release date": "November 2, 2012",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPad (4th gen)": {
+    "release date": "November 2, 2012",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPad Mini": {
+    "release date": "November 16, 2012",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "AirPort Extreme 802.11ac": {
+    "release date": "June 10, 2013",
+    "category": "Computer Peripherals"
+  },
+  "AirPort Time Capsule": {
+    "release date": "June 10, 2013",
+    "category": "Computer Peripherals"
+  },
+  "iPhone 5C": {
+    "release date": "September 20, 2013",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 5S": {
+    "release date": "September 20, 2013",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPad Air": {
+    "release date": "November 1, 2013",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPad Mini 2": {
+    "release date": "November 12, 2013",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPod Touch 16GB (5th generation, Mid 2013)": {
+    "release date": "June 26, 2014",
+    "category": "iPod/Consumer Products"
+  },
+  "iPhone 6": {
+    "release date": "September 19, 2014",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 6 Plus": {
+    "release date": "September 19, 2014",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPad Air 2": {
+    "release date": "October 22, 2014",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPad Mini 3": {
+    "release date": "October 22, 2014",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch": {
+    "release date": "April 24, 2015",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch Sport": {
+    "release date": "April 24, 2015",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch Edition": {
+    "release date": "April 24, 2015",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPod Touch (6th generation)": {
+    "release date": "July 15, 2015",
+    "category": "iPod/Consumer Products"
+  },
+  "iPad Mini 4": {
+    "release date": "September 9, 2015",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 6S": {
+    "release date": "September 25, 2015",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 6S Plus": {
+    "release date": "September 25, 2015",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Magic Mouse 2": {
+    "release date": "October 13, 2015",
+    "category": "Computer Peripherals"
+  },
+  "Magic Trackpad 2": {
+    "release date": "October 13, 2015",
+    "category": "Computer Peripherals"
+  },
+  "Magic Keyboard": {
+    "release date": "October 13, 2015",
+    "category": "Computer Peripherals"
+  },
+  "iPad Pro": {
+    "release date": "November 11, 2015",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Pencil": {
+    "release date": "November 11, 2015",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone SE (1st generation)": {
+    "release date": "March 31, 2016",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 7": {
+    "release date": "September 16, 2016",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 7 Plus": {
+    "release date": "September 16, 2016",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "EarPods": {
+    "release date": "September 16, 2016",
+    "category": "iPod/Consumer Products"
+  },
+  "Apple Watch Series 1": {
+    "release date": "September 16, 2016",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch Series 2": {
+    "release date": "September 16, 2016",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch Herm\u00e8s Series 2": {
+    "release date": "September 16, 2016",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch Edition Series 2": {
+    "release date": "September 16, 2016",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch Nike+ Series 2": {
+    "release date": "October 28, 2016",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "AirPods": {
+    "release date": "December 19, 2016",
+    "category": "iPod/Consumer Products"
+  },
+  "iPad (5th generation)": {
+    "release date": "March 24, 2017",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Magic Keyboard with Numeric Keypad": {
+    "release date": "June 5, 2017",
+    "category": "Computer Peripherals"
+  },
+  "Apple TV 4K": {
+    "release date": "September 22, 2017",
+    "category": "iPod/Consumer Products"
+  },
+  "Apple Watch Series 3": {
+    "release date": "September 22, 2017",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch Herm\u00e8s Series 3": {
+    "release date": "September 22, 2017",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch Edition Series 3": {
+    "release date": "September 22, 2017",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch Nike+ Series 3": {
+    "release date": "September 22, 2017",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 8": {
+    "release date": "September 22, 2017",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 8 Plus": {
+    "release date": "September 22, 2017",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone X": {
+    "release date": "November 3, 2017",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iMac Pro": {
+    "release date": "December 14, 2017",
+    "category": "Macintosh"
+  },
+  "HomePod": {
+    "release date": "February 9, 2018",
+    "category": "iPod/Consumer Products"
+  },
+  "iPad (6th generation)": {
+    "release date": "March 27, 2018",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch Series 4": {
+    "release date": "September 21, 2018",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch Herm\u00e8s Series 4": {
+    "release date": "September 21, 2018",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch Nike+ Series 4": {
+    "release date": "September 21, 2018",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone XS": {
+    "release date": "September 21, 2018",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone XS Max": {
+    "release date": "September 21, 2018",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone XR": {
+    "release date": "October 26, 2018",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPad Air (3rd generation)": {
+    "release date": "March 18, 2019",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPad Mini (5th generation)": {
+    "release date": "March 18, 2019",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPod Touch (7th generation)": {
+    "release date": "May 28, 2019",
+    "category": "iPod/Consumer Products"
+  },
+  "Apple Card": {
+    "release date": "August 20, 2019",
+    "category": "iPod/Consumer Products"
+  },
+  "Apple Watch Series 5": {
+    "release date": "September 20, 2019",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch Herm\u00e8s Series 5": {
+    "release date": "September 20, 2019",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch Nike Series 5": {
+    "release date": "September 20, 2019",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch Edition Series 5": {
+    "release date": "September 20, 2019",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 11": {
+    "release date": "September 20, 2019",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 11 Pro": {
+    "release date": "September 20, 2019",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 11 Pro Max": {
+    "release date": "September 20, 2019",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPad (7th generation)": {
+    "release date": "September 25, 2019",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "AirPods Pro": {
+    "release date": "October 30, 2019",
+    "category": "iPod/Consumer Products"
+  },
+  "Mac Pro (2019)": {
+    "release date": "December 10, 2019",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Pro Display XDR": {
+    "release date": "December 10, 2019",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Magic Keyboard for iPad": {
+    "release date": "March 18, 2020",
+    "category": "Computer Peripherals"
+  },
+  "iPhone SE (2nd generation)": {
+    "release date": "April 24, 2020",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch Series 6": {
+    "release date": "September 18, 2020",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch Herm\u00e8s Series 6": {
+    "release date": "September 18, 2020",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch Nike Series 6": {
+    "release date": "September 18, 2020",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch SE": {
+    "release date": "September 18, 2020",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPad (8th generation)": {
+    "release date": "September 18, 2020",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPad Air (4th generation)": {
+    "release date": "October 23, 2020",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 12": {
+    "release date": "October 23, 2020",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 12 Pro": {
+    "release date": "October 23, 2020",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 12 Mini": {
+    "release date": "November 13, 2020",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 12 Pro Max": {
+    "release date": "November 13, 2020",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "HomePod Mini": {
+    "release date": "November 16, 2020",
+    "category": "iPod/Consumer Products"
+  },
+  "AirPods Max": {
+    "release date": "December 15, 2020",
+    "category": "iPod/Consumer Products"
+  },
+  "AirTag": {
+    "release date": "April 30, 2021",
+    "category": "iPod/Consumer Products"
+  },
+  "Magic Keyboard (2021)": {
+    "release date": "May 21, 2021",
+    "category": "Macintosh"
+  },
+  "MagSafe Battery Pack": {
+    "release date": "July 13, 2021",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPad (9th generation)": {
+    "release date": "September 24, 2021",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPad Mini (6th generation)": {
+    "release date": "September 24, 2021",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 13": {
+    "release date": "September 24, 2021",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 13 Mini": {
+    "release date": "September 24, 2021",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 13 Pro": {
+    "release date": "September 24, 2021",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 13 Pro Max": {
+    "release date": "September 24, 2021",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch Series 7": {
+    "release date": "October 8, 2021",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "MagSafe": {
+    "release date": "October 26, 2021",
+    "category": "iPod/Consumer Products"
+  },
+  "Apple Polishing Cloth": {
+    "release date": "October 26, 2021",
+    "category": "iPod/Consumer Products"
+  },
+  "iPad Air (5th generation)": {
+    "release date": "March 18, 2022",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone SE (3rd generation)": {
+    "release date": "March 18, 2022",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Mac Studio": {
+    "release date": "March 18, 2022",
+    "category": "Macintosh"
+  },
+  "Apple Watch Series 8": {
+    "release date": "September 16, 2022",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch SE (2nd generation)": {
+    "release date": "September 16, 2022",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 14": {
+    "release date": "September 16, 2022",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 14 Pro": {
+    "release date": "September 16, 2022",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 14 Pro Max": {
+    "release date": "September 16, 2022",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "Apple Watch Ultra": {
+    "release date": "September 23, 2022",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPhone 14 Plus": {
+    "release date": "October 7, 2022",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "iPad (10th generation)": {
+    "release date": "October 26, 2022",
+    "category": "Phones/Tablets/PDAs"
+  },
+  "HomePod (2nd generation)": {
+    "release date": "February 3, 2023",
+    "category": "iPod/Consumer Products"
+  }
+}
