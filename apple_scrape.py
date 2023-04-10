@@ -10,8 +10,13 @@ https://en.wikipedia.org/wiki/Timeline_of_Apple_Inc._products
 Author: Taylor Snyder
 '''
 
-
 def load_JSON(filename):
+    '''
+    Loads in a JSON file with the given name if it exists.
+    INPUTS: filename (string)
+    RETURNS: Dictionary with loaded data (or empty dictionary)
+    '''
+    
     try:
         # Open file
         source_dir = os.path.dirname(__file__)
@@ -27,6 +32,12 @@ def load_JSON(filename):
         return dict()
 
 def write_JSON(filename, data):
+    '''
+    Writes data as a JSON to the given filename.
+    INPUTS: filename (string), data (dictionary)
+    RETURNS: None
+    '''
+    
     with open(filename, 'w') as outfile:
         json.dump(data, outfile, indent=2)
 
@@ -55,13 +66,17 @@ def color_code_lookup(color_code):
         return "N/A"
 
 def add_25_entries(soup, data):
+    '''
+    Adds up to 25 entries from the provided soup into the data dictionary (if they do not exist already).
+    INPUTS: soup (BS4 soup object), data (dictionary)
+    RETURNS: number of entries added (integer)
+    '''
     
     table_list = soup.find_all('tr', bgcolor=True)
     
-    # Placeholders for rowspans in table
+    # Placeholders for rowspans in table, entries counter
     rowspan = 0
     rowspan_date = ""
-    
     entries_added = 0
     
     for row in table_list:
@@ -111,12 +126,19 @@ def add_25_entries(soup, data):
     return entries_added
     
 def add_entries_to_JSON():
+    '''
+    Loads JSON data, sends a request to the wikipedia URL, creates the soup object, adds entries, and writes to updated JSON.
+    INPUTS: None
+    RETURNS: None
+    '''
     
     data = load_JSON("apple_data.json")
     
     r = requests.get('https://en.wikipedia.org/wiki/Timeline_of_Apple_Inc._products')
+    
     if not r.ok:
         print("Error, unable to connect to url.")
+        
     soup = BeautifulSoup(r.content, 'html.parser')
     
     num_entries_added = add_25_entries(soup, data)
@@ -125,11 +147,16 @@ def add_entries_to_JSON():
     
     print(f"Added {num_entries_added} entries to the database and JSON.")
 
+# TODO: Make sure we create a foreign key lookup for category (gives me a chance to use JOIN)
 def update_SQL_Database():
     pass
 
-# TODO: Make sure we create a foreign key lookup for category (gives me a chance to use JOIN)
 def main():
+    '''
+    Driver function which ensures that each time the program is run, the JSON is updated with <= 25 new entries, and that the SQL database is then also updated.
+    INPUTS: None
+    RETURNS: None
+    '''
     add_entries_to_JSON()
     
 if __name__ == '__main__':
