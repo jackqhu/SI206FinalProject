@@ -4,7 +4,6 @@ import os
 import requests
 import sqlite3
 
-
 '''
 Scrapes the Apple product release data from wikipedia at the following link:
 https://en.wikipedia.org/wiki/Timeline_of_Apple_Inc._products
@@ -139,10 +138,10 @@ def add_entries_to_JSON():
     '''
     Loads JSON data, sends a request to the wikipedia URL, creates the soup object, adds entries, and writes to updated JSON.
     INPUTS: None
-    RETURNS: None
+    RETURNS: data (dictionary) with new entries appended if found
     '''
     
-    data = load_JSON("apple_data.json")
+    data = load_JSON("apple_products.json")
     
     r = requests.get('https://en.wikipedia.org/wiki/Timeline_of_Apple_Inc._products')
     
@@ -153,11 +152,19 @@ def add_entries_to_JSON():
     
     num_entries_added = add_25_entries(soup, data)
     
-    write_JSON("apple_data.json", data)
+    write_JSON("apple_products.json", data)
     
     print(f"Added {num_entries_added} entries to the database and JSON.")
+    
+    return data
 
 def SQL_create_categories(cur, conn):
+    '''
+    Create the Apple_Categories table which links an ID to the category of the product. Should be used as a foreign key in Apple_Products.
+    INPUTS: cur (sqlite3 cursor), conn (sqlite3 connection)
+    RETURNS: None
+    '''
+    
     categories = ["Apple 1/2/2GS/3", "Lisa", "Macintosh", "Network Server", "Phones/Tablets/PDAs", "iPod/Consumer Products", "Computer Peripherals"]
     
     cur.execute("CREATE TABLE IF NOT EXISTS Apple_Categories (id INTEGER PRIMARY KEY, category TEXT UNIQUE)")
@@ -167,8 +174,25 @@ def SQL_create_categories(cur, conn):
         
     conn.commit()
 
-def SQL_update_database():
-    pass
+def SQL_update_database(cur, conn, data):
+    '''
+    Updates the database with any new entries in the JSON data. Finds the associated category_id from Apple_Categories to reference as foreign key.
+    INPUTS: cur (sqlite3 cursor), conn (sqlite3 connection), data (dicitonary)
+    '''
+    
+    cur.execute("CREATE TABLE IF NOT EXISTS Apple_Products (id INTEGER PRIMARY KEY, name TEXT UNIQUE, release_date TEXT, category INTEGER)")
+    
+    for product_name in data:
+        release_date = data[product_name]['release date']
+        category_string = data[product_name]['category']
+        
+        cur.execute("SELECT id FROM Apple_Categories WHERE category = (?)", (category_string,))
+        
+        category_id = cur.fetchone()[0]
+        
+        cur.execute("INSERT OR IGNORE INTO Apple_Products (name, release_date, category) VALUES (?,?,?)", (product_name, release_date, category_id))
+    
+    conn.commit()
 
 def main():
     '''
@@ -180,7 +204,9 @@ def main():
     
     SQL_create_categories(cur, conn)
     
-    add_entries_to_JSON()
+    data = add_entries_to_JSON()
+    
+    SQL_update_database(cur, conn, data)
     
 if __name__ == '__main__':
     main()
