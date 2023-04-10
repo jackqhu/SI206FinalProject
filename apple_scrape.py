@@ -1,7 +1,9 @@
 from bs4 import BeautifulSoup
-import requests
-import os
 import json
+import os
+import requests
+import sqlite3
+
 
 '''
 Scrapes the Apple product release data from wikipedia at the following link:
@@ -9,6 +11,17 @@ https://en.wikipedia.org/wiki/Timeline_of_Apple_Inc._products
 
 Author: Taylor Snyder
 '''
+
+def open_database(db_name):
+    '''
+    Returns sqlite3 cursor and connection to specified database file db_name. Automatically creates a new DB if it doesn't exist.
+    INPUT: db_name (string)
+    RETURNS: cur (sqlite3 cursor), conn (sqlite3 connection)
+    '''
+    path = os.path.dirname(os.path.abspath(__file__))
+    conn = sqlite3.connect(path+'/'+db_name)
+    cur = conn.cursor()
+    return cur, conn
 
 def load_JSON(filename):
     '''
@@ -94,7 +107,7 @@ def add_25_entries(soup, data):
                 rowspan = int(row_data['rowspan'])
                 rowspan_date = row_data.text.rstrip()
             
-            # If we have rowspan, decrement and use rowspan date until rowspan is done
+            # If we have rowspan, decrement and use rowspan date until rowspan is complete
             if rowspan != 0:
                 entry_name = row_name.text.rstrip()
                 entry_details = {
@@ -103,20 +116,17 @@ def add_25_entries(soup, data):
                                 }
                 rowspan -= 1
                 
-                if data.get(entry_name) is None:
-                    data[entry_name] = entry_details
-                    entries_added += 1
-                
             else:
                 entry_name = row_name.text.rstrip()
                 entry_details = {
                                 "release date" : row_data.text.rstrip(),
                                 "category"     : row_category
                                 }
-                
-                if data.get(entry_name) is None:
-                    data[entry_name] = entry_details
-                    entries_added += 1
+            
+            # No duplicates
+            if data.get(entry_name) is None:
+                data[entry_name] = entry_details
+                entries_added += 1
                 
         
         # Check that we do not add more than 25 things per run
@@ -147,8 +157,17 @@ def add_entries_to_JSON():
     
     print(f"Added {num_entries_added} entries to the database and JSON.")
 
-# TODO: Make sure we create a foreign key lookup for category (gives me a chance to use JOIN)
-def update_SQL_Database():
+def SQL_create_categories(cur, conn):
+    categories = ["Apple 1/2/2GS/3", "Lisa", "Macintosh", "Network Server", "Phones/Tablets/PDAs", "iPod/Consumer Products", "Computer Peripherals"]
+    
+    cur.execute("CREATE TABLE IF NOT EXISTS Apple_Categories (id INTEGER PRIMARY KEY, category TEXT UNIQUE)")
+    
+    for i in range(len(categories)):
+        cur.execute("INSERT OR IGNORE INTO Apple_Categories (id, category) VALUES (?,?)", (i, categories[i]))
+        
+    conn.commit()
+
+def SQL_update_database():
     pass
 
 def main():
@@ -157,6 +176,10 @@ def main():
     INPUTS: None
     RETURNS: None
     '''
+    cur, conn = open_database('Apptendo.db')
+    
+    SQL_create_categories(cur, conn)
+    
     add_entries_to_JSON()
     
 if __name__ == '__main__':
