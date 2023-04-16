@@ -92,7 +92,6 @@ def pull_stock_apple(conn,curr,dates):
             stock_today = int(dic['data'][0]['high'])
             stock_week_ago = 0
 
-            
         #Puts stock data into table
         curr.execute('INSERT INTO apple_stock (id, release_date, stock_value_of_date, stock_value_week_before) VALUES (?, ?, ?, ?)', (id + i, today, stock_today, stock_week_ago))
     conn.commit()
