@@ -1,0 +1,23 @@
+{"status": "REQUEST_SUCCEEDED",
+ "responseTime": 179, 
+ "message": [], 
+ "Results": 
+    {"series": [
+        {"seriesID": "APU0000702111", 
+         "data": 
+                [{"year": "1983", "period": "M12", "periodName": "December", "value": "0.547", "footnotes": [{}]}, 
+                {"year": "1983", "period": "M11", "periodName": "November", "value": "0.547", "footnotes": [{}]}, 
+                {"year": "1983", "period": "M10", "periodName": "October", "value": "0.535", "footnotes": [{}]}, 
+                {"year": "1983", "period": "M09", "periodName": "September", "value": "0.536", "footnotes": [{}]}, 
+                {"year": "1983", "period": "M08", "periodName": "August", "value": "0.539", "footnotes": [{}]}, 
+                {"year": "1983", "period": "M07", "periodName": "July", "value": "0.544", "footnotes": [{}]}, 
+                {"year": "1983", "period": "M06", "periodName": "June", "value": "0.542", "footnotes": [{}]}, 
+                {"year": "1983", "period": "M05", "periodName": "May", "value": "0.542", "footnotes": [{}]}, 
+                {"year": "1983", "period": "M04", "periodName": "April", "value": "0.538", "footnotes": [{}]}, 
+                {"year": "1983", "period": "M03", "periodName": "March", "value": "0.544", "footnotes": [{}]}, 
+                {"year": "1983", "period": "M02", "periodName": "February", "value": "0.544", "footnotes": [{}]}, 
+                {"year": "1983", "period": "M01", "periodName": "January", "value": "0.541", "footnotes": [{}]}]
+            }
+        ]
+    }
+}
