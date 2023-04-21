@@ -121,7 +121,7 @@ def inflation_retriever(conn,curr,dates,name_of_table):
             print("Request failed: " + str(the_year))
             exit(1)
         #If there is a message (usually says no data available)
-        if len(dic['messages']) != 0:
+        if len(dic['message']) != 0:
             print("Message for " + str(the_year) + ": ")
             for message in dic['messages']:
                 print("\t- " + str(message))
