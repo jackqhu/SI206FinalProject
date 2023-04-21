@@ -177,7 +177,7 @@ def inflation_retriever(conn,curr,dates,name_of_table):
             print(inflation_val_1st)
             print(type(inflation_val_2nd))
             print(inflation_val_2nd)
-            curr.execute('INSERT INTO {} (id, date, inflation_val_1st, inflation_val_2nd)  VALUES (?, ?, ?, ?)'.format(name_of_table), (i, x.strftime("%Y-%m-%d"), inflation_val_1st, inflation_val_2nd))
+            curr.execute('INSERT OR IGNORE INTO {} (id, date, inflation_val_1st, inflation_val_2nd)  VALUES (?, ?, ?, ?)'.format(name_of_table), (i, x.strftime("%Y-%m-%d"), inflation_val_1st, inflation_val_2nd))
     conn.commit()
 
 def main():
@@ -189,11 +189,11 @@ def main():
     unique_apple_dates = list(apple_to_dict.keys())
     inflation_retriever(conn,curr,unique_apple_dates,'Inflation_Apple')
 
-    #For Nintendo
-    apple_dates = apple_date_retriever(conn,curr)
-    apple_to_dict = apple_dict(conn,curr,apple_dates)
-    unique_apple_dates = list(apple_to_dict.keys())
-    inflation_retriever(conn,curr,unique_apple_dates,'Inflation_Apple')
+    # #For Nintendo
+    # apple_dates = apple_date_retriever(conn,curr)
+    # apple_to_dict = apple_dict(conn,curr,apple_dates)
+    # unique_apple_dates = list(apple_to_dict.keys())
+    # inflation_retriever(conn,curr,unique_apple_dates,'Inflation_Apple')
 
 
 if __name__ == "__main__":
