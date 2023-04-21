@@ -30,9 +30,8 @@ def apple_date_retriever(conn,curr):
             if found.group(0) != ",":
                 day = found.group(0)[:-1]
         temp_date = date(int(year),int(month),int(day))
-
-        #We can only use the Apple products that were released after the company went public
-        if temp_date >= date(1980,12,12):
+        #Inflation data does not go back further than this date
+        if date(1980,12,12) < temp_date:
             dates.append(temp_date)
     return dates
 
@@ -44,7 +43,6 @@ def apple_dict(conn,curr,dates):
     num_dates = len(dates)
 
     #443 is the TOTAL number of Apple products
-    #We can only use the Apple products that were released after the company went public
     start_dates = 443 - num_dates
     for i in range(num_dates):
         dic[dates[i]] = dic.get(dates[i],[])
@@ -55,37 +53,48 @@ def apple_dict(conn,curr,dates):
 def inflation_retriever(conn,curr,dates,name_of_table):
    
     curr.execute("CREATE TABLE IF NOT EXISTS {} (id INTEGER PRIMARY KEY, date TEXT, inflation_val_1st FLOAT, inflation_val_2nd FLOAT)".format(name_of_table))
-    curr.execute("SELECT * FROM {}".format(name_of_table))
-    data = curr.fetchall()
+    curr.execute("SELECT date FROM {}".format(name_of_table))
+    table_info = curr.fetchall()
 
     # If all dates already have data then dont pull anymore
-    if (len(data) >= len(dates)):
+    if (len(table_info) >= len(dates)):
         print("All Data Has Been Collected")
         return
-    
-    remaining = str(len(dates) - len(data))
-    print("Remaining Data: " + remaining)
-    perc = str((len(data) * 1.0)/len(dates))
-    print('Percent Complete: ' + perc)
 
-    #Find all unqiue years
+    #Find all unique years
     years = {}
     for x in dates:
         years[x.year] = years.get(x.year,[])
         years[x.year].append(x)
+    
+    remaining = str(len(dates) - len(table_info))
+    print("Remaining Data: " + remaining)
+    perc = str((len(table_info) * 1.0)/len(dates))
+    print('Percent Complete: ' + perc)
 
-    #Finds the next 25 values, or until all values are done
-    end = 25
-    start = 0
-    start += len(data)
-    end += len(data)
-    if end > len(years):
-        end = len(years)
 
-    #For each of the 25 request stock data from week ago till that day and add to the db
-    for i in range(start,end):
-        the_year = list(years.keys())[i]
 
+    counter = 0
+    id = len(table_info)
+    while True:
+        #Updates list of content
+        curr.execute("SELECT date FROM {}".format(name_of_table))
+        table_info = curr.fetchall()
+        same_year_again = False
+        #If no dates in the db choose the first year elem 
+        if len(table_info) == 0:
+            the_year = list(years.keys())[0]
+        #If the last date of that year was NOT the last element added to the db start at that year
+        elif table_info[-1][0] == years[int(table_info[-1][0][:4])][-1]:
+            the_year = table_info[-1][0][:4]
+            same_year_again = True
+        #If the last date of that year WAS the last element, start at the next year
+        else:
+            if list(years.keys()).index(int(table_info[-1][0][:4]))+1 == len(list(years.keys())):
+                print("All Data Collected for " + name_of_table)
+                return
+            the_year = list(years.keys())[list(years.keys()).index(int(table_info[-1][0][:4]))+1]
+         
         #Return type
         headers = {'Content-type': 'application/json'}
 
@@ -125,26 +134,37 @@ def inflation_retriever(conn,curr,dates,name_of_table):
             print("Message for " + str(the_year) + ": ")
             for message in dic['message']:
                 print("\t- " + str(message))
+                if "Request could not be serviced" in message:
+                    return
 
+        
         #For each date that is this year
-        for x in years[the_year]:
-
+        if same_year_again:
+            last_date = table_info[-1][0]
+            date_start = years[the_year].index(last_date) + 1
+        else:
+            date_start = 0
+        for x in range(date_start,len(years[the_year])):
+            list_of_this_year = years[the_year]
+            if counter == 25:
+                print("25 Submissions added")
+                return 
             #Get the month
-            month_1 = x.strftime('%B')
+            month_1 = list_of_this_year[x].strftime('%B')
             month_2 = ""
             if month_1 == "December":
                 month_1 = "November"
                 month_2 = "December"
             else:
-                month_2 = (x + timedelta(days=30)).strftime('%B')
+                month_2 = (list_of_this_year[x] + timedelta(days=31)).strftime('%B')
 
             #Running total for each item
-            inflation_val_1st = 0.5
-            inflation_val_2nd = 0.5
+            inflation_val_1st = 1.0
+            inflation_val_2nd = 1.0
+            
             
             #For item collected
-            for item in dic['Results']['series']:
-                
+            for item in dic['Results']['series']:  
                 start1 = inflation_val_1st
                 start2 = inflation_val_2nd
 
@@ -161,25 +181,37 @@ def inflation_retriever(conn,curr,dates,name_of_table):
 
                 #If month1 doesnt exist, find closest month that isnt current month
                 if start1 == inflation_val_1st:
-                    approx_month = int(len(item['data']) * ((x.month)/12.0))
+                    approx_month = int(len(item['data']) * ((list_of_this_year[x].month)/12.0))
                     inflation_val_1st *= float(item['data'][approx_month]['value'])
 
                 if start2 == inflation_val_2nd:
-                    approx_month = int(len(item['data']) * ((x.month)/12.0))
+                    approx_month = int(len(item['data']) * ((list_of_this_year[x].month)/12.0))
                     inflation_val_2nd *= float(item['data'][approx_month]['value'])
 
-            #Puts Inflation rate data into table
-            print(type(i))
-            print(i)
-            print(type(x.strftime("%Y-%m-%d")))
-            print(x.strftime("%Y-%m-%d"))
-            print(type(inflation_val_1st))
-            print(inflation_val_1st)
-            print(type(inflation_val_2nd))
-            print(inflation_val_2nd)
-            curr.execute('INSERT OR IGNORE INTO {} (id, date, inflation_val_1st, inflation_val_2nd)  VALUES (?, ?, ?, ?)'.format(name_of_table), (i, x.strftime("%Y-%m-%d"), inflation_val_1st*2, inflation_val_2nd*2))
+            curr.execute('INSERT OR IGNORE INTO {} (id, date, inflation_val_1st, inflation_val_2nd)  VALUES (?, ?, ?, ?)'.format(name_of_table), (id + counter, list_of_this_year[x].strftime("%Y-%m-%d"), inflation_val_1st, inflation_val_2nd))
             conn.commit()
+            counter += 1
 
+def nintendo_date_retriever(conn,curr):
+    curr.execute("SELECT release_date FROM Mario_Games ORDER BY id")
+    raw_dates = curr.fetchall()
+    dates = []
+    for x in raw_dates:
+        dates.append(date(year=int(x[0][0:4]),month=int(x[0][5:7]),day=int(x[0][8:10])))
+    return dates
+
+def nintendo_dict(conn,curr,dates):
+    curr.execute("SELECT name FROM Mario_Games ORDER BY id")
+    db_names = curr.fetchall()
+    dic = {}
+    num_dates = len(dates)
+
+    #235 is the TOTAL number of Mario Games
+    start_dates = 235 - num_dates
+    for i in range(num_dates):
+        dic[dates[i]] = dic.get(dates[i],[])
+        dic[dates[i]].append(db_names[i + start_dates][0])
+    return dic
 def main():
     conn = sqlite3.connect('Apptendo.db')
     curr = conn.cursor()
@@ -189,11 +221,11 @@ def main():
     unique_apple_dates = list(apple_to_dict.keys())
     inflation_retriever(conn,curr,unique_apple_dates,'Inflation_Apple')
 
-    # #For Nintendo
-    # apple_dates = apple_date_retriever(conn,curr)
-    # apple_to_dict = apple_dict(conn,curr,apple_dates)
-    # unique_apple_dates = list(apple_to_dict.keys())
-    # inflation_retriever(conn,curr,unique_apple_dates,'Inflation_Apple')
+    #For Nintendo
+    nintendo_dates = nintendo_date_retriever(conn,curr)
+    nintendo_to_dict = nintendo_dict(conn,curr,nintendo_dates)
+    unique_nintendo_dates = list(nintendo_to_dict.keys())
+    inflation_retriever(conn,curr,unique_nintendo_dates,'Inflation_Nintendo')
 
 
 if __name__ == "__main__":
