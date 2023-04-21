@@ -42,6 +42,10 @@ def get_mario_games(curr, access_token):
     mario_games = r.json()
     return mario_games
 
+def save_to_JSON(mario_games, file_name='mario_games.json'):
+    with open(file_name, 'w') as json_file:
+        json.dump(mario_games, json_file, indent=4)
+
 def process_JSON(curr, conn, mario_games):
     #When done exit
     curr.execute('SELECT * FROM Mario_Games')    
@@ -78,6 +82,9 @@ def main():
     
     #Pull request of mario games
     mario_games = get_mario_games(curr, authenticate_igdb())
+
+    # Save retrieved data into a JSON file
+    save_to_JSON(mario_games)
     
     #Insert request into Table
     process_JSON(curr, conn, mario_games)
