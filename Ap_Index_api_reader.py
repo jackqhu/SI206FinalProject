@@ -151,7 +151,7 @@ def inflation_retriever(conn,curr,dates,name_of_table):
                 #For price of month 1 of that item 
                 for i in item['data']:
                     if i['periodName'] == month_1:
-                        start1 *= x['value']
+                        start1 *= i['value']
                         break
                 #For price of month 2 of that item 
                 for i in item['data']:
@@ -169,6 +169,7 @@ def inflation_retriever(conn,curr,dates,name_of_table):
                     inflation_val_2nd *= item['data'][approx_month]['value']
 
             #Puts Inflation rate data into table
+            print(x)
             curr.execute('INSERT INTO {} (id, date, inflation_val_1st, inflation_val_2nd)  VALUES (?, ?, ?, ?)'.format(name_of_table), (i, x.strftime("%Y-%m-%d"), inflation_val_1st, inflation_val_2nd))
     conn.commit()
 
