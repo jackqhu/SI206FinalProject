@@ -123,7 +123,7 @@ def inflation_retriever(conn,curr,dates,name_of_table):
         #If there is a message (usually says no data available)
         if len(dic['message']) != 0:
             print("Message for " + str(the_year) + ": ")
-            for message in dic['messages']:
+            for message in dic['message']:
                 print("\t- " + str(message))
 
         #For each date that is this year
@@ -136,7 +136,7 @@ def inflation_retriever(conn,curr,dates,name_of_table):
                 month_1 = "November"
                 month_2 = "December"
             else:
-                month_2 = (x + timedelta(month=1)).strftime('%B')
+                month_2 = (x + timedelta(days=30)).strftime('%B')
 
             #Running total for each item
             inflation_val_1st = 1
