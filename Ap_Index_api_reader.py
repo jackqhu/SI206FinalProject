@@ -178,7 +178,7 @@ def inflation_retriever(conn,curr,dates,name_of_table):
             print(type(inflation_val_2nd))
             print(inflation_val_2nd)
             curr.execute('INSERT OR IGNORE INTO {} (id, date, inflation_val_1st, inflation_val_2nd)  VALUES (?, ?, ?, ?)'.format(name_of_table), (i, x.strftime("%Y-%m-%d"), inflation_val_1st, inflation_val_2nd))
-    conn.commit()
+            conn.commit()
 
 def main():
     conn = sqlite3.connect('Apptendo.db')
