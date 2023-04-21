@@ -54,7 +54,7 @@ def apple_dict(conn,curr,dates):
 
 def inflation_retriever(conn,curr,dates,name_of_table):
    
-    curr.execute("CREATE TABLE IF NOT EXISTS {} (id INTEGER PRIMARY KEY, date TEXT, inflation_val_1st NUMBER, inflation_val_2nd NUMBER)".format(name_of_table))
+    curr.execute("CREATE TABLE IF NOT EXISTS {} (id INTEGER PRIMARY KEY, date TEXT, inflation_val_1st FLOAT, inflation_val_2nd FLOAT)".format(name_of_table))
     curr.execute("SELECT * FROM {}".format(name_of_table))
     data = curr.fetchall()
 
@@ -139,8 +139,8 @@ def inflation_retriever(conn,curr,dates,name_of_table):
                 month_2 = (x + timedelta(days=30)).strftime('%B')
 
             #Running total for each item
-            inflation_val_1st = 1
-            inflation_val_2nd = 1
+            inflation_val_1st = 0.5
+            inflation_val_2nd = 0.5
             
             #For item collected
             for item in dic['Results']['series']:
@@ -151,22 +151,22 @@ def inflation_retriever(conn,curr,dates,name_of_table):
                 #For price of month 1 of that item 
                 for elem in item['data']:
                     if elem['periodName'] == month_1:
-                        start1 *= elem['value']
+                        inflation_val_1st *= float(elem['value'])
                         break
                 #For price of month 2 of that item 
                 for elem in item['data']:
                     if elem['periodName'] == month_2:
-                        start2 *= elem['value']
+                        inflation_val_2nd *= float(elem['value'])
                         break
 
                 #If month1 doesnt exist, find closest month that isnt current month
                 if start1 == inflation_val_1st:
                     approx_month = int(len(item['data']) * ((x.month)/12.0))
-                    inflation_val_1st *= item['data'][approx_month]['value']
+                    inflation_val_1st *= float(item['data'][approx_month]['value'])
 
                 if start2 == inflation_val_2nd:
                     approx_month = int(len(item['data']) * ((x.month)/12.0))
-                    inflation_val_2nd *= item['data'][approx_month]['value']
+                    inflation_val_2nd *= float(item['data'][approx_month]['value'])
 
             #Puts Inflation rate data into table
             print(type(i))
@@ -177,7 +177,7 @@ def inflation_retriever(conn,curr,dates,name_of_table):
             print(inflation_val_1st)
             print(type(inflation_val_2nd))
             print(inflation_val_2nd)
-            curr.execute('INSERT OR IGNORE INTO {} (id, date, inflation_val_1st, inflation_val_2nd)  VALUES (?, ?, ?, ?)'.format(name_of_table), (i, x.strftime("%Y-%m-%d"), inflation_val_1st, inflation_val_2nd))
+            curr.execute('INSERT OR IGNORE INTO {} (id, date, inflation_val_1st, inflation_val_2nd)  VALUES (?, ?, ?, ?)'.format(name_of_table), (i, x.strftime("%Y-%m-%d"), inflation_val_1st*2, inflation_val_2nd*2))
             conn.commit()
 
 def main():
