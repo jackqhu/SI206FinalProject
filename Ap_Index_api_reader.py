@@ -143,7 +143,7 @@ def inflation_retriever(conn,curr,dates,name_of_table):
             inflation_val_2nd = 1
             
             #For item collected
-            for item in dic['series']:
+            for item in dic['Results']['series']:
                 
                 start1 = inflation_val_1st
                 start2 = inflation_val_2nd
