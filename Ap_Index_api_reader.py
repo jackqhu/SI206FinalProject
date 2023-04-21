@@ -149,14 +149,14 @@ def inflation_retriever(conn,curr,dates,name_of_table):
                 start2 = inflation_val_2nd
 
                 #For price of month 1 of that item 
-                for x in item['data']:
-                    if x['periodName'] == month_1:
+                for i in item['data']:
+                    if i['periodName'] == month_1:
                         start1 *= x['value']
                         break
                 #For price of month 2 of that item 
-                for x in item['data']:
-                    if x['periodName'] == month_2:
-                        start2 *= x['value']
+                for i in item['data']:
+                    if i['periodName'] == month_2:
+                        start2 *= i['value']
                         break
 
                 #If month1 doesnt exist, find closest month that isnt current month
