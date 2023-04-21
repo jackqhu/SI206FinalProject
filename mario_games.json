@@ -1,0 +1,140 @@
+[
+    {
+        "id": 220006,
+        "first_release_date": 1617148800,
+        "name": "Super Mario Death Row!"
+    },
+    {
+        "id": 152979,
+        "first_release_date": 1624233600,
+        "name": "Marionette lab"
+    },
+    {
+        "id": 172243,
+        "first_release_date": 1624406400,
+        "name": "Super Mario Bros. S: Road to Infinity"
+    },
+    {
+        "id": 143609,
+        "first_release_date": 1624492800,
+        "franchises": [
+            845
+        ],
+        "name": "Mario Golf: Super Rush"
+    },
+    {
+        "id": 153836,
+        "first_release_date": 1624924800,
+        "name": "Mariozza Cops"
+    },
+    {
+        "id": 152354,
+        "first_release_date": 1635379200,
+        "franchises": [
+            845
+        ],
+        "name": "Mario Party Superstars"
+    },
+    {
+        "id": 198180,
+        "first_release_date": 1645401600,
+        "name": "Supertan Marioner 3D Infinity World Adventures"
+    },
+    {
+        "id": 212845,
+        "first_release_date": 1647561600,
+        "name": "New Super Mario Bros. Multiplayer"
+    },
+    {
+        "id": 220042,
+        "first_release_date": 1648771200,
+        "name": "Super Mario Death Row 2: Shroomshank Redemption"
+    },
+    {
+        "id": 203820,
+        "first_release_date": 1650153600,
+        "name": "Mario Heardle"
+    },
+    {
+        "id": 203821,
+        "first_release_date": 1652572800,
+        "name": "Mario Heardle 2"
+    },
+    {
+        "id": 203826,
+        "first_release_date": 1653177600,
+        "name": "Super Mario Heardle"
+    },
+    {
+        "id": 203828,
+        "first_release_date": 1653177600,
+        "name": "Mario Party Heardle"
+    },
+    {
+        "id": 191398,
+        "first_release_date": 1654819200,
+        "franchises": [
+            845
+        ],
+        "name": "Mario Strikers: Battle League"
+    },
+    {
+        "id": 208506,
+        "first_release_date": 1654992000,
+        "name": "New Super Realistic Mario Bros."
+    },
+    {
+        "id": 152201,
+        "first_release_date": 1666224000,
+        "franchises": [
+            845,
+            1766
+        ],
+        "name": "Mario + Rabbids Sparks of Hope"
+    },
+    {
+        "id": 207390,
+        "first_release_date": 1666224000,
+        "name": "Mario + Rabbids Sparks of Hope: Gold Edition"
+    },
+    {
+        "id": 207391,
+        "first_release_date": 1666224000,
+        "name": "Mario + Rabbids Sparks of Hope: Cosmic Edition"
+    },
+    {
+        "id": 245752,
+        "first_release_date": 1681689600,
+        "name": "Marionette Mates"
+    },
+    {
+        "id": 14738,
+        "franchises": [
+            845
+        ],
+        "name": "Super Mario's Wacky Worlds"
+    },
+    {
+        "id": 61418,
+        "franchises": [
+            3846
+        ],
+        "name": "Detective Conan: Marionette Symphony"
+    },
+    {
+        "id": 77566,
+        "name": "Marionette Handler"
+    },
+    {
+        "id": 77567,
+        "name": "Marionette Handler 2"
+    },
+    {
+        "id": 82868,
+        "name": "God Marionette"
+    },
+    {
+        "id": 98124,
+        "name": "O-SHI-KA-KE Saiminjutsushi: Toraware no In'yoku Marionette"
+    }
+]
