@@ -54,7 +54,7 @@ def apple_dict(conn,curr,dates):
 
 def inflation_retriever(conn,curr,dates,name_of_table):
    
-    curr.execute("CREATE TABLE IF NOT EXISTS {} (id INTEGER PRIMARY KEY, date TEXT, inflation_val_1st Number, inflation_val_2nd Number)".format(name_of_table))
+    curr.execute("CREATE TABLE IF NOT EXISTS {} (id INTEGER PRIMARY KEY, date TEXT, inflation_val_1st NUMBER, inflation_val_2nd NUMBER)".format(name_of_table))
     curr.execute("SELECT * FROM {}".format(name_of_table))
     data = curr.fetchall()
 
@@ -149,14 +149,14 @@ def inflation_retriever(conn,curr,dates,name_of_table):
                 start2 = inflation_val_2nd
 
                 #For price of month 1 of that item 
-                for i in item['data']:
-                    if i['periodName'] == month_1:
-                        start1 *= i['value']
+                for elem in item['data']:
+                    if elem['periodName'] == month_1:
+                        start1 *= elem['value']
                         break
                 #For price of month 2 of that item 
-                for i in item['data']:
-                    if i['periodName'] == month_2:
-                        start2 *= i['value']
+                for elem in item['data']:
+                    if elem['periodName'] == month_2:
+                        start2 *= elem['value']
                         break
 
                 #If month1 doesnt exist, find closest month that isnt current month
@@ -169,7 +169,14 @@ def inflation_retriever(conn,curr,dates,name_of_table):
                     inflation_val_2nd *= item['data'][approx_month]['value']
 
             #Puts Inflation rate data into table
-            print(x)
+            print(type(i))
+            print(i)
+            print(type(x.strftime("%Y-%m-%d")))
+            print(x.strftime("%Y-%m-%d"))
+            print(type(inflation_val_1st))
+            print(inflation_val_1st)
+            print(type(inflation_val_2nd))
+            print(inflation_val_2nd)
             curr.execute('INSERT INTO {} (id, date, inflation_val_1st, inflation_val_2nd)  VALUES (?, ?, ?, ?)'.format(name_of_table), (i, x.strftime("%Y-%m-%d"), inflation_val_1st, inflation_val_2nd))
     conn.commit()
 
