@@ -76,12 +76,13 @@ def apple_graph1(conn,curr):
         inflation2 = i[2]
         y.append(abs(inflation1 - inflation2)) 
 
+    fig = plt.figure(figsize=(10, 3))
 
     #Formats graph
     plt.gca().spines['right'].set_visible(False)
     plt.gca().spines['top'].set_visible(False)
 
-    plt.title('Inflation vs Apple Realease Dates')
+    plt.title('Inflation vs Apple Release Dates')
     plt.xlabel('Releases of Every 10th Apple Product')
     plt.ylabel('Inflation Rate')
 
