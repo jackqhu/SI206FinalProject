@@ -212,6 +212,8 @@ def nintendo_dict(conn,curr,dates):
         dic[dates[i]] = dic.get(dates[i],[])
         dic[dates[i]].append(db_names[i + start_dates][0])
     return dic
+
+
 def main():
     conn = sqlite3.connect('Apptendo.db')
     curr = conn.cursor()
